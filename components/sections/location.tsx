@@ -7,7 +7,7 @@ import StoreInformation from "./StoreInformation"
 export function LocationSection() {
   return (
     <section id="location" className="py-12 bg-white">
-      <div className="container px-4 md:px-8">
+      <div className=" px-4 md:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

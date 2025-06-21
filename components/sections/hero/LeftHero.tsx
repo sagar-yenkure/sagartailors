@@ -46,7 +46,7 @@ const LeftHero = () => {
                     </Button>
                 </Link>
                 <Link href={"#services"} className="w-full sm:w-auto">
-                    <Button variant="outline" size="lg" className="btn-gradient-outline px-6 md:px-8 py-3 text-base md:text-lg rounded-3xl">
+                    <Button variant="outline" size="lg" className="btn-gradient-outline px-9 md:px-11 py-3 text-base md:text-lg rounded-3xl">
                         View Services
                     </Button>
                 </Link>

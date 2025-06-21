@@ -8,7 +8,7 @@ import BulkOrders from "./BulkOrders"
 export function CatalogueSection() {
   return (
     <section id="catalogue" className="py-12 bg-gray-50">
-      <div className="container px-4 md:px-8">
+      <div className="px-4 md:px-8">
 
         <motion.div
           initial={{ opacity: 0, y: 30 }}

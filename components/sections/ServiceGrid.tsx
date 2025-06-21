@@ -4,7 +4,7 @@ import { services } from "@/constant"
 
 const ServiceGrid = () => {
     return (
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {services.map((service, index) => (
                 <motion.div
                     key={index}
@@ -13,8 +13,9 @@ const ServiceGrid = () => {
                     transition={{ duration: 0.6, delay: index * 0.1 }}
                     viewport={{ once: true }}
                     whileHover={{ y: -5 }}
+                    className="flex items-stretch w-full"
                 >
-                    <Card className="h-full hover:shadow-lg transition-all duration-300 border-2 hover:border-amber-200 bg-white rounded-3xl ">
+                    <Card className="w-full h-full hover:shadow-lg transition-all duration-300 border-2 hover:border-amber-200 bg-white rounded-3xl">
                         <CardHeader>
                             <div className="mb-4">
                                 {service.icon}

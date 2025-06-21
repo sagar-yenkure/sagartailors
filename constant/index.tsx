@@ -85,7 +85,7 @@ export const heroStat = [
 export const features = [
   {
     icon: <Award className="h-12 w-12 text-amber-600" />,
-    title: "35+ Years of Excellence",
+    title: "25+ Years of Excellence",
     description:
       "Decades of experience in creating perfect fits and satisfied customers across generations.",
   },
@@ -111,7 +111,7 @@ export const features = [
 
 export const achievements = [
   { number: "5000+", label: "Happy Customers" },
-  { number: "35+", label: "Years Experience" },
+  { number: "25+", label: "Years Experience" },
   { number: "15+", label: "Expert Tailors" },
   { number: "100%", label: "Quality Guarantee" },
 ];
@@ -193,7 +193,7 @@ export const catalogueItems = [
   },
   {
     id: 2,
-    name: "Pant",
+    name: "Trousers & Casual Pants",
     description: "Perfectly fitted trousers and casual pants from your fabric",
     image:
       "https://images.pexels.com/photos/2897521/pexels-photo-2897521.jpeg?auto=compress&cs=tinysrgb&w=400",
@@ -202,8 +202,8 @@ export const catalogueItems = [
   },
   {
     id: 3,
-    name: "Shirt-Pant Set",
-    description: "Complete coordinated shirt and pant combinations",
+    name: "Shirt-Casual Pant Set",
+    description: "Complete coordinated shirt and Casual pant combinations",
     image:
       "https://images.pexels.com/photos/16567121/pexels-photo-16567121.jpeg?auto=compress&cs=tinysrgb&w=400",
     features: ["Matching Sets", "Coordinated Colors", "Complete Look"],

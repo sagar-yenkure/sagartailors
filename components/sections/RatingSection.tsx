@@ -19,7 +19,7 @@ const RatingSection = () => {
                 4.9/5 Customer Rating
             </h3>
             <p className="text-slate-100 text-lg mb-6">
-                Based on 500+ customer reviews across 35 years of service
+                Based on 500+ customer reviews across 25+ years of service
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-2xl mx-auto">
                 {ratingStats.map((rate, idx) => {

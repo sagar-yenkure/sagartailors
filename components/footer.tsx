@@ -1,6 +1,4 @@
-"use client"
 
-import { motion } from "framer-motion"
 import { Scissors, Phone, Mail, MapPin, Clock } from "lucide-react"
 import { Info, navItems } from "@/constant"
 import Link from "next/link"
@@ -10,14 +8,11 @@ export function Footer() {
 
   return (
     <footer className="bg-slate-900 text-white">
-      <div className="container px-4 md:px-8 py-12">
+      <div className="px-4 md:px-8 py-6">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
+          <div
+
             className="space-y-4"
           >
             <div className="flex items-center space-x-3">
@@ -39,16 +34,12 @@ export function Footer() {
                 <Twitter className="h-5 w-5" />
               </Button>
             </div> */}
-          </motion.div>
+          </div>
 
-          <div className="grid grid-cols-2 gap-4 md:gap-8">
+          <div className="grid grid-cols-2 gap-4 md:gap-8 justify-center">
 
             {/* Quick Links */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.1 }}
-              viewport={{ once: true }}
+            <div
               className="space-y-4 "
             >
               <h3 className="text-lg font-semibold">Quick Links</h3>
@@ -69,14 +60,10 @@ export function Footer() {
                   </li>
                 ))}
               </ul>
-            </motion.div>
+            </div>
 
             {/* Services */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.2 }}
-              viewport={{ once: true }}
+            <div
               className="space-y-4"
             >
               <h3 className="text-lg font-semibold">Our Services</h3>
@@ -88,15 +75,11 @@ export function Footer() {
                 <li>Express Service</li>
                 <li>Bulk Orders</li>
               </ul>
-            </motion.div>
+            </div>
 
           </div>
           {/* Contact Info */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.3 }}
-            viewport={{ once: true }}
+          <div
             className="space-y-4"
           >
             <h3 className="text-lg font-semibold">Contact Info</h3>
@@ -124,19 +107,15 @@ export function Footer() {
                 </span>
               </div>
             </div>
-          </motion.div>
+          </div>
         </div>
 
         {/* Bottom Bar */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-          viewport={{ once: true }}
+        <div
           className="border-t border-slate-800 mt-2 pt-2 flex flex-col md:flex-row justify-between items-center"
         >
           <p className="text-gray-400 text-sm">
-            © {currentYear} Sagar Tailors. All rights reserved.
+            © {currentYear} New Sagar Tailors. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-2 md:mt-0">
             <Link href={"/privacy-policy"}>
@@ -150,7 +129,7 @@ export function Footer() {
               </button>
             </Link>
           </div>
-        </motion.div>
+        </div>
       </div>
     </footer>
   )

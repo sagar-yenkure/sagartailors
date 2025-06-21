@@ -35,18 +35,18 @@ const BulkOrders = () => {
           Special pricing for organizations, schools, and businesses.
           Same premium quality, better value.
         </p>
-
+        {/* 
         <Link href="#contact">
           <motion.div
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <Button size="lg" className="bg-white text-slate-900 hover:bg-gray-100 font-bold px-10 py-4 rounded-full text-lg shadow-xl">
+            <Button className="bg-white text-slate-900 hover:bg-gray-100 font-bold md:px-10 py-4 rounded-full text-lg shadow-xl">
               Request Bulk Quote
               <ArrowRight className="h-5 w-5 ml-2" />
             </Button>
           </motion.div>
-        </Link>
+        </Link> */}
       </div>
     </motion.div>
   );

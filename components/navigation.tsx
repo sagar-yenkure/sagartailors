@@ -38,7 +38,7 @@ export function Navigation() {
         : 'bg-transparent'
         }`}
     >
-      <div className="container mx-auto px-4">
+      <div className="mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <motion.div
@@ -53,7 +53,7 @@ export function Navigation() {
           </motion.div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden lg:flex items-center space-x-8">
             {navItems.map((item, index) => (
               <motion.button
                 key={item.name}
@@ -69,7 +69,7 @@ export function Navigation() {
           </div>
 
           {/* Desktop Actions */}
-          <div className="hidden md:flex items-center space-x-4">
+          <div className="hidden lg:flex items-center space-x-4">
             <motion.a
               href={`tel:+91${Info.number}`}
               whileHover={{ scale: 1.05 }}
@@ -83,7 +83,7 @@ export function Navigation() {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden flex items-center">
+          <div className="lg:hidden flex items-center">
             <Button
               variant="ghost"
               size="icon"
@@ -107,7 +107,7 @@ export function Navigation() {
             height: isMobileMenuOpen ? 'auto' : 0
           }}
           transition={{ duration: 0.3 }}
-          className="md:hidden overflow-hidden bg-white border-t border-gray-200"
+          className="md:hidden overflow-hidden w-full bg-white border-t border-gray-200"
         >
           <div className="py-4 space-y-4">
             {navItems.map((item) => (

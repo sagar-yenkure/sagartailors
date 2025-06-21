@@ -6,13 +6,13 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'New Sagar Tailors - Premium Custom Tailoring Since 1998',
-  description: 'Experience the finest in custom tailoring with over 35 years of expertise. From traditional to contemporary.',
+  description: 'Experience the finest in custom tailoring with over 25 years of expertise. From traditional to contemporary.',
   keywords: 'Best Tailor in Pune, Best Tailor in Hadpsar, custom tailoring, suits, wedding attire, alterations, Pune tailors, premium clothing',
   metadataBase: new URL(process.env.APP_URL!),
   openGraph: {
 
     title: 'New Sagar Tailors - Premium Custom Tailoring Since 1998',
-    description: 'Experience the finest in custom tailoring with over 35 years of expertise. From traditional to contemporary, we create garments that fit your style perfectly.',
+    description: 'Experience the finest in custom tailoring with over 25 years of expertise. From traditional to contemporary, we create garments that fit your style perfectly.',
     url: process.env.APP_URL,
     siteName: 'New Sagar Tailors',
     locale: 'en_US',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'New Sagar Tailors - Premium Custom Tailoring Since 1998',
-    description: 'Experience the finest in custom tailoring with over 35 years of expertise. From traditional to contemporary, we create garments that fit your style perfectly.',
+    description: 'Experience the finest in custom tailoring with over 25 years of expertise. From traditional to contemporary, we create garments that fit your style perfectly.',
     images: ['opengraph-image.png'],
   },
   alternates: {

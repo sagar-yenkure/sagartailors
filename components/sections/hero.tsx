@@ -11,7 +11,7 @@ export function HeroSection() {
         }} />
       </div>
 
-      <div className="container px-4 md:px-8 z-10 py-8">
+      <div className=" px-4 md:px-8 z-10 py-8">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           <LeftHero />
           <RightHero />
