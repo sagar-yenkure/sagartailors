@@ -1,6 +1,7 @@
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { heroStat } from "@/constant"
+import Link from "next/link"
 
 const LeftHero = () => {
     return (
@@ -39,12 +40,16 @@ const LeftHero = () => {
                 transition={{ delay: 0.8, duration: 0.6 }}
                 className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8 lg:mb-12"
             >
-                <Button size="lg" className="btn-gradient-primary px-6 md:px-8 py-3 text-base md:text-lg rounded-3xl">
-                    Book Appointment
-                </Button>
-                <Button variant="outline" size="lg" className="btn-gradient-outline px-6 md:px-8 py-3 text-base md:text-lg rounded-3xl">
-                    View Services
-                </Button>
+                <Link href={"#contact"} className="w-full sm:w-auto">
+                    <Button size="lg" className="btn-gradient-primary px-6 md:px-8 py-3 text-base md:text-lg rounded-3xl">
+                        Book Appointment
+                    </Button>
+                </Link>
+                <Link href={"#services"} className="w-full sm:w-auto">
+                    <Button variant="outline" size="lg" className="btn-gradient-outline px-6 md:px-8 py-3 text-base md:text-lg rounded-3xl">
+                        View Services
+                    </Button>
+                </Link>
             </motion.div>
 
             {/* Stats */}

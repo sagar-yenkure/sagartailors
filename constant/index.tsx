@@ -121,57 +121,58 @@ export const testimonials = [
     name: "Rajesh Kumar",
     role: "Business Executive",
     content:
-      "Sagar Tailors has been my go-to for over 15 years. The quality stitching is unmatched, and they always deliver on time. My wedding suit was absolutely perfect!",
+      "I've trusted Sagar Tailors for over 15 years. From office wear to my wedding suit — their quality, fit, and timely delivery are unmatched.",
     rating: 5,
     image:
-      "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150",
+      "https://images.pexels.com/photos/936117/pexels-photo-936117.jpeg?auto=compress&cs=tinysrgb&w=150", // Smart man in business attire
   },
   {
     name: "Priya Sharma",
     role: "Fashion Designer",
     content:
-      "As someone in the fashion industry, I'm very particular about stitching. Sagar Tailors exceeds my expectations every time with their attention to detail.",
+      "Being in fashion, I'm very particular — but Sagar Tailors always delivers impeccable work with fine detailing.",
     rating: 5,
     image:
-      "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150",
+      "https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg?auto=compress&cs=tinysrgb&w=150", // Stylish female fashion type
   },
   {
     name: "Amit Patel",
     role: "Groom",
     content:
-      "They stitched my entire wedding wardrobe from my fabric - from the engagement suit to the reception outfit. Every piece was perfect and I felt like a king!",
+      "They designed every outfit for my wedding — each one tailored perfectly. I felt truly royal on my big day.",
     rating: 5,
     image:
-      "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150",
+      "https://images.pexels.com/photos/3775539/pexels-photo-3775539.jpeg?auto=compress&cs=tinysrgb&w=150", // Traditional groom look
   },
   {
     name: "Dr. Sunita Gupta",
-    role: "Professional",
+    role: "Doctor",
     content:
-      "Their alterations service saved my expensive dress that didn't fit properly. The expertise and care they showed was exceptional.",
+      "Their alteration service saved an expensive outfit. The professionalism and care shown were outstanding.",
     rating: 5,
     image:
-      "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150",
+      "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=150", // Mature professional woman
   },
   {
     name: "Vikram Singh",
     role: "Corporate Manager",
     content:
-      "Been getting all my formal wear stitched from Sagar Tailors for the past decade. Consistent quality, fair pricing, and excellent service every time.",
+      "I've relied on Sagar Tailors for my formal wear for years. Consistent quality and great service every single time.",
     rating: 5,
     image:
-      "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=150",
+      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=150", // Professional Indian man
   },
   {
     name: "Neha Joshi",
     role: "Bride",
     content:
-      "They stitched the most beautiful lehenga from my fabric for my wedding. The embroidery work and fitting were absolutely flawless. Highly recommended!",
+      "They created the most elegant lehenga from my fabric. The fit and craftsmanship were beyond expectations.",
     rating: 5,
     image:
-      "https://images.pexels.com/photos/1462980/pexels-photo-1462980.jpeg?auto=compress&cs=tinysrgb&w=150",
+      "https://images.pexels.com/photos/2879839/pexels-photo-2879839.jpeg?auto=compress&cs=tinysrgb&w=150", // Smiling bride
   },
 ];
+
 
 export const ratingStats = [
   { label: "Quality Satisfaction", percentage: 98 },
@@ -186,36 +187,36 @@ export const catalogueItems = [
     name: "Shirt",
     description: "Custom tailored shirts with perfect fit and premium stitching",
     image:
-      "https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "https://images.pexels.com/photos/46212/men-s-shirt-shirt-attire-clothing-46212.jpeg?auto=compress&cs=tinysrgb&w=400",
     features: ["Cotton & Linen", "Custom Fit", "Various Collars"],
-    price: "Starting from ₹800",
+    price: "Starting from ₹300",
   },
   {
     id: 2,
     name: "Pant",
     description: "Perfectly fitted trousers and casual pants from your fabric",
     image:
-      "https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "https://images.pexels.com/photos/2897521/pexels-photo-2897521.jpeg?auto=compress&cs=tinysrgb&w=400",
     features: ["Formal & Casual", "Perfect Fit", "Quality Stitching"],
-    price: "Starting from ₹600",
+    price: "Starting from ₹400",
   },
   {
     id: 3,
     name: "Shirt-Pant Set",
     description: "Complete coordinated shirt and pant combinations",
     image:
-      "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "https://images.pexels.com/photos/16567121/pexels-photo-16567121.jpeg?auto=compress&cs=tinysrgb&w=400",
     features: ["Matching Sets", "Coordinated Colors", "Complete Look"],
-    price: "Starting from ₹1200",
+    price: "Starting from ₹700",
   },
   {
     id: 4,
     name: "Safari Suit",
     description: "Traditional safari suits with authentic styling and comfort",
     image:
-      "https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "https://images.pexels.com/photos/615003/pexels-photo-615003.jpeg?auto=compress&cs=tinysrgb&w=400",
     features: ["Traditional Style", "Comfortable Fit", "Premium Fabric"],
-    price: "Starting from ₹1500",
+    price: "Starting from ₹1400",
   },
   {
     id: 5,
@@ -223,9 +224,9 @@ export const catalogueItems = [
     description:
       "Professional business suits and formal wear for special occasions",
     image:
-      "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "https://images.pexels.com/photos/1342609/pexels-photo-1342609.jpeg?auto=compress&cs=tinysrgb&w=400",
     features: ["Business Formal", "Wedding Suits", "Premium Quality"],
-    price: "Starting from ₹2500",
+    price: "Starting from ₹3500",
   },
 ];
 

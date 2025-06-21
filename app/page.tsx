@@ -9,10 +9,12 @@ import { TestimonialsSection } from "@/components/sections/testimonials"
 import { LocationSection } from "@/components/sections/location"
 import { ContactSection } from "@/components/sections/contact"
 import { Footer } from "@/components/footer"
+import { Toaster } from "react-hot-toast"
 
 const Home = () => {
   return (
     <main className="min-h-screen">
+      <Toaster />
       <Navigation />
       <div id="home">
         <HeroSection />
