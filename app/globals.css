@@ -8,6 +8,10 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+h1 {
+  font-size: medium;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -42,6 +46,7 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-white text-foreground;
   }
@@ -49,26 +54,30 @@
 
 /* Custom Color Scheme - 60-30-10 Rule */
 @layer utilities {
+
   /* Primary Colors (60%) - Navy Blue */
   .bg-primary-60 {
     @apply bg-slate-900;
   }
+
   .text-primary-60 {
     @apply text-slate-900;
   }
-  
+
   /* Secondary Colors (30%) - Warm Gray */
   .bg-secondary-30 {
     @apply bg-gray-100;
   }
+
   .text-secondary-30 {
     @apply text-gray-600;
   }
-  
+
   /* Accent Colors (10%) - Golden Amber */
   .bg-accent-10 {
     @apply bg-amber-500;
   }
+
   .text-accent-10 {
     @apply text-amber-600;
   }
@@ -77,11 +86,11 @@
   .btn-gradient-primary {
     @apply bg-gradient-to-r from-slate-800 to-slate-900 hover:from-slate-900 hover:to-black text-white font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl;
   }
-  
+
   .btn-gradient-secondary {
     @apply bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl;
   }
-  
+
   .btn-gradient-outline {
     @apply bg-gradient-to-r from-transparent to-transparent border-2 border-amber-500 text-amber-600 hover:from-amber-50 hover:to-amber-100 font-semibold transition-all duration-300 transform hover:scale-105;
   }
