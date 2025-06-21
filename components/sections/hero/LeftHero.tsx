@@ -11,7 +11,7 @@ const LeftHero = () => {
             transition={{ duration: 0.8 }}
             className="text-center lg:text-left order-2 lg:order-1 "
         >
-            <h1 className="hidden">New Sagar Tailors - Premium Custom Tailoring Since 1998</h1>
+            <h1 className="hidden text2xl">New Sagar Tailors - Premium Custom Tailoring Since 1998</h1>
             <motion.h2
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
