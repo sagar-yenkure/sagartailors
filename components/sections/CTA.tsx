@@ -1,5 +1,7 @@
-import { motion } from "framer-motion"
-import { Clock } from "lucide-react"
+import { motion } from "framer-motion";
+import { Clock } from "lucide-react";
+import Link from "next/link";
+
 const CTA = () => {
     return (
         <motion.div
@@ -18,16 +20,18 @@ const CTA = () => {
                     Every project is unique. Contact us for a personalized consultation and detailed quote
                     based on your specific requirements and fabric.
                 </p>
-                <motion.button
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                    className="btn-gradient-secondary px-8 py-3 rounded-lg"
-                >
-                    Get Free Consultation
-                </motion.button>
+                <Link href="#contact">
+                    <motion.button
+                        whileHover={{ scale: 1.05 }}
+                        whileTap={{ scale: 0.95 }}
+                        className="btn-gradient-secondary px-8 py-3 rounded-lg"
+                    >
+                        Get Free Consultation
+                    </motion.button>
+                </Link>
             </div>
         </motion.div>
-    )
-}
+    );
+};
 
-export default CTA
+export default CTA;

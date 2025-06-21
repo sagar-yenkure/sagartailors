@@ -33,13 +33,7 @@ const TestimonialsGrid = () => {
                             </div>
 
                             <div className="flex items-center">
-                                <Image
-                                    height={100}
-                                    width={100}
-                                    src={testimonial.image}
-                                    alt={testimonial.name}
-                                    className="w-12 h-12 rounded-full object-cover mr-4"
-                                />
+
                                 <div>
                                     <h4 className="font-semibold text-slate-900">
                                         {testimonial.name}

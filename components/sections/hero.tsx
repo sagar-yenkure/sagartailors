@@ -1,5 +1,3 @@
-"use client"
-
 import LeftHero from "./hero/LeftHero"
 import RightHero from "./hero/RightHero"
 

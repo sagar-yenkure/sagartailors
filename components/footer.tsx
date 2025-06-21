@@ -3,6 +3,7 @@
 import { motion } from "framer-motion"
 import { Scissors, Phone, Mail, MapPin, Clock } from "lucide-react"
 import { Info, navItems } from "@/constant"
+import Link from "next/link"
 
 export function Footer() {
   const currentYear = new Date()?.getFullYear()
@@ -138,12 +139,16 @@ export function Footer() {
             © {currentYear} Sagar Tailors. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-2 md:mt-0">
-            <button className="text-gray-400 hover:text-amber-400 text-sm transition-colors">
-              Privacy Policy
-            </button>
-            <button className="text-gray-400 hover:text-amber-400 text-sm transition-colors">
-              Terms of Service
-            </button>
+            <Link href={"/privacy-policy"}>
+              <button className="text-gray-400 hover:text-amber-400 text-sm transition-colors">
+                Privacy Policy
+              </button>
+            </Link>
+            <Link href={"/terms-of-service"}>
+              <button className="text-gray-400 hover:text-amber-400 text-sm transition-colors">
+                Terms of Service
+              </button>
+            </Link>
           </div>
         </motion.div>
       </div>

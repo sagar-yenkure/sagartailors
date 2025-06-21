@@ -4,7 +4,8 @@ import { motion } from "framer-motion"
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Scissors, Menu, X, Phone } from "lucide-react"
-import { navItems } from "@/constant"
+import { Info, navItems } from "@/constant"
+import Link from "next/link"
 
 
 export function Navigation() {
@@ -70,7 +71,7 @@ export function Navigation() {
           {/* Desktop Actions */}
           <div className="hidden md:flex items-center space-x-4">
             <motion.a
-              href="tel:+91-98765-43210"
+              href={`tel:+91${Info.number}`}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
@@ -119,12 +120,12 @@ export function Navigation() {
               </button>
             ))}
             <div className="px-4 pt-4 border-t border-gray-200">
-              <a href="tel:+91-98765-43210" className="block">
+              <Link href={`tel:+91${Info.number}`} className="block">
                 <Button className="w-full btn-gradient-primary">
                   <Phone className="h-4 w-4 mr-2" />
                   Call Now
                 </Button>
-              </a>
+              </Link>
             </div>
           </div>
         </motion.div>

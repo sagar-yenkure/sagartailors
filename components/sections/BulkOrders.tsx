@@ -1,6 +1,7 @@
-import { motion } from "framer-motion"
-import { Button } from "@/components/ui/button"
-import { ArrowRight, Sparkles } from "lucide-react"
+import { motion } from "framer-motion";
+import { Button } from "@/components/ui/button";
+import { ArrowRight, Sparkles } from "lucide-react";
+import Link from "next/link";
 
 const BulkOrders = () => {
   return (
@@ -35,18 +36,20 @@ const BulkOrders = () => {
           Same premium quality, better value.
         </p>
 
-        <motion.div
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-        >
-          <Button size="lg" className="bg-white text-slate-900 hover:bg-gray-100 font-bold px-10 py-4 rounded-full text-lg shadow-xl">
-            Request Bulk Quote
-            <ArrowRight className="h-5 w-5 ml-2" />
-          </Button>
-        </motion.div>
+        <Link href="#contact">
+          <motion.div
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            <Button size="lg" className="bg-white text-slate-900 hover:bg-gray-100 font-bold px-10 py-4 rounded-full text-lg shadow-xl">
+              Request Bulk Quote
+              <ArrowRight className="h-5 w-5 ml-2" />
+            </Button>
+          </motion.div>
+        </Link>
       </div>
     </motion.div>
-  )
-}
+  );
+};
 
-export default BulkOrders
+export default BulkOrders;
