@@ -1,12 +1,11 @@
-interface SubscriptionEmailProps {
+
+export const ContactUsEmail = ({ email, message, name, phone, service }: {
     name: string,
     email: string,
     message: string,
     phone: string,
     service: string,
-}
-
-export const ContactUsEmail: React.FC<SubscriptionEmailProps> = ({ email, message, name, phone, service }) => {
+}) => {
 
     return (
         <div className="max-w-xl mx-auto bg-white border border-gray-200 rounded-xl p-6 font-sans">

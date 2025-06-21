@@ -15,13 +15,14 @@ const sendmail = async (
             throw new Error("Resend API key is not set");
 
         const resend = new Resend(process.env.RESEND_API_KEY);
+        const emailContent = ContactUsEmail({ email, message, name, phone, service });
 
         const { data: result, error } = await resend.emails.send({
             from: "New Sagar Tailors <no-reply@sagaryenkure.pro>",
             to: [email],
             bcc: ["sagaryenkure4@gmail.com"],
             subject: `Thanks you for contacting New Sagar Tailors, ${name}`,
-            react: await ContactUsEmail({ email, message, name, phone, service }),
+            react: emailContent,
         });
 
         if (error) throw new Error(error.message);
