@@ -7,10 +7,8 @@ const TermsOfService = () => {
             {/* Logo and Heading */}
             <div className="flex items-center gap-6 mb-8">
                 <Image src={"/opengraph-image.png"} alt="New Sagar Tailors Logo" width={80} height={80} quality={100} />
-                <h1 className="text-2xl md:text-3xl font-bold text-slate-800">New Sagar Tailors</h1>
+                <h1 className="text-2xl md:text-3xl font-bold text-slate-800">New Sagar Tailors - Terms of Service</h1>
             </div>
-
-            <h2 className="text-3xl font-bold mb-6">Terms of Service</h2>
 
             <p className="mb-4">
                 These Terms of Service govern your use of our tailoring services and website operated by

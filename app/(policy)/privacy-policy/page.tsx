@@ -8,9 +8,8 @@ const PrivacyPolicy = () => {
             {/* Logo and Title */}
             <div className="flex items-center gap-6 mb-8">
                 <Image src={"/opengraph-image.png"} alt="New Sagar Tailors Logo" width={80} height={80} quality={100} />
-                <h1 className="text-2xl md:text-3xl font-bold text-slate-800">New Sagar Tailors</h1>
+                <h1 className="text-2xl md:text-3xl font-bold text-slate-800">New Sagar Tailors - Privacy Policy</h1>
             </div>
-            <h1 className="text-3xl font-bold mb-6">Privacy Policy</h1>
 
             <p className="mb-4">
                 At New Sagar Tailors, we value your privacy and are committed to protecting your personal

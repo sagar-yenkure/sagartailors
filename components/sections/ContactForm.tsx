@@ -120,7 +120,7 @@ const ContactForm = () => {
                                     value={formData.service}
                                     onValueChange={value => handleInputChange("service", value)}
                                 >
-                                    <SelectTrigger className="transition-all duration-200 focus:ring-2 focus:ring-amber-500">
+                                    <SelectTrigger aria-label="select a service" className="transition-all duration-200 focus:ring-2 focus:ring-amber-500">
                                         <SelectValue placeholder="Select a service" />
                                     </SelectTrigger>
                                     <SelectContent>

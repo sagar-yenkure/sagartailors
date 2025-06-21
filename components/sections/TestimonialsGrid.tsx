@@ -2,7 +2,6 @@ import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
 import { Star, Quote } from "lucide-react"
 import { testimonials } from "@/constant"
-import Image from "next/image"
 
 const TestimonialsGrid = () => {
     return (
@@ -35,9 +34,9 @@ const TestimonialsGrid = () => {
                             <div className="flex items-center">
 
                                 <div>
-                                    <h4 className="font-semibold text-slate-900">
+                                    <h3 className="font-semibold text-slate-900">
                                         {testimonial.name}
-                                    </h4>
+                                    </h3>
                                     <p className="text-sm text-gray-500">
                                         {testimonial.role}
                                     </p>

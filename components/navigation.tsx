@@ -85,6 +85,7 @@ export function Navigation() {
           {/* Mobile Menu Button */}
           <div className="lg:hidden flex items-center">
             <Button
+              aria-label="Toggle Mobile Menu"
               variant="ghost"
               size="icon"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
