@@ -25,8 +25,8 @@ export function WhyChooseUsSection() {
           </p>
         </motion.div>
 
-        <FeatureGrid />
-        <AchievementsStats />
+        {/* <FeatureGrid /> */}
+        {/* <AchievementsStats /> */}
         <QualityPromise />
 
       </div>
