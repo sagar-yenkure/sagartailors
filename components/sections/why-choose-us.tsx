@@ -1,8 +1,8 @@
 "use client"
 
 import { motion } from "framer-motion"
-import FeatureGrid from "./FeatureGrid"
-import AchievementsStats from "./AchievementsStats"
+// import FeatureGrid from "./FeatureGrid"
+// import AchievementsStats from "./AchievementsStats"
 import QualityPromise from "./QualityPromise"
 
 export function WhyChooseUsSection() {
@@ -25,8 +25,8 @@ export function WhyChooseUsSection() {
           </p>
         </motion.div>
 
-        <FeatureGrid />
-        <AchievementsStats />
+        {/* <FeatureGrid /> */}
+        {/* <AchievementsStats /> */}
         <QualityPromise />
 
       </div>

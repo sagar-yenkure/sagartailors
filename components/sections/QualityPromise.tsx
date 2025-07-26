@@ -10,17 +10,6 @@ const QualityPromise = () => {
             viewport={{ once: true }}
 
         >
-            <div className="text-center mb-8">
-                <CheckCircle className="h-16 w-16 text-amber-600 mx-auto mb-4" />
-                <h3 className="text-2xl font-bold text-slate-900 my-4">
-                    Our Quality Promise
-                </h3>
-                <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-                    We stand behind every stitch, every seam, and every garment that leaves our workshop.
-                    Your satisfaction is our guarantee, and your style is our passion.
-                </p>
-            </div>
-
             <div className="grid md:grid-cols-3 gap-8">
                 <div className="text-center p-6 h-full hover:shadow-lg transition-all duration-300 border-2 hover:border-amber-200 bg-white rounded-3xl">
                     <div className="bg-amber-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">

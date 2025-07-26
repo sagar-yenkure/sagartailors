@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import TestimonialsGrid from "./TestimonialsGrid"
-import RatingSection from "./RatingSection"
+// import RatingSection from "./RatingSection"
 
 export function TestimonialsSection() {
   return (
@@ -25,7 +25,7 @@ export function TestimonialsSection() {
         </motion.div>
 
         <TestimonialsGrid />
-        <RatingSection />
+        {/* <RatingSection /> */}
 
       </div>
     </section>
