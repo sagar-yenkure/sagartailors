@@ -116,7 +116,9 @@ export function Footer() {
         >
           <p className="text-gray-400 text-sm">
             © {currentYear} New Sagar Tailors. All rights reserved.
+
           </p>
+          <p> Dev - <Link href="https://www.sagaryenkure.pro" target="_blank">Sagar Yenkure</Link> </p>
           <div className="flex space-x-6 mt-2 md:mt-0">
             <Link href={"/privacy-policy"}>
               <button className="text-gray-400 hover:text-amber-400 text-sm transition-colors p-2">
